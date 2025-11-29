@@ -5,9 +5,11 @@ https://customsforge.com/topic/67471-cdlc-on-linux-instructions/
 
 ## Get the cable working:
 
-Pre-requirements
+### Pre-requirements
 Install Rocksmith 2014
-Install wine, winetricks
+
+Install wine, winetricks, protontricks
+
 Before anything next, plug in the Rocksmith Real Tone Cable to the USB port. Once done, execute below commands in your terminal. By default game is installed in /home/user/.steam/steam and this path will be used in all examples.
 
 Wine configuration
@@ -46,3 +48,15 @@ That's it. Launch the game. You are ready to calibrate your guitar and start pla
 
 Sound configuration
 It's worth to check the volume of your guitar. Please go to the sound settings in OS and tune the volume of your guitar in input/mics section. 100% is fine.
+
+
+## Get CDLC Working
+
+### Download the CDLC Executable:
+https://ignition4.customsforge.com/tools/cdlcenabler
+
+### Move the cdlc executable into the Rocksmith Prefix:
+```
+cp ~/Downloads/RS2014-CDLC-Installer.exe ~/.steam/steam/steamapps/compatdata/221680/pfx/drive_c/
+```
+
